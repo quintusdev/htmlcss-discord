@@ -248,13 +248,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #228b22;
 }
-
-/* .cont {
-    display: flex;
-    justify-content: center;
-} */
 
 .cont h2{
     text-align: center;
@@ -266,7 +260,7 @@ body {
 .cont p {
     font-size: 18px;
     text-align: center;
-    padding: 0 130px;
+    padding: 0 90px;
 }
 
 .cont img {
@@ -274,41 +268,43 @@ body {
     margin: 0 auto;
 }
 
-.cont .star-img {
-    background: url(../img/stars.svg);
+#img-star{
+    display: flex;
+    background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    height: 40px;
+    background-size: auto;
+    width: 100%;
+    justify-content: center;
+    align-items:flex-end;
 }
 
-.star-img span{
-    display: inline-block;
+#img-star h4 {
+    display: flex;
     text-align: center;
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
 }
 
 .btn-download2 {
-    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.btn-download2 #dw2{
     width: fit-content;
     background-color: #8ea1e1;
     border-radius: 40px;
     font-size: 20px;
-    padding: 8px 20px;
-    margin-top: 100px;
-    justify-content: center;
-    text-align: center;
-}
-
-.btn-download2 span{
-    position: center;
-    margin-right: 10px;
- }
-
- .btn-download2 #arrow{
-    display: flex;
+    padding: 10px 15px;
+    align-items: center;
     text-decoration: none;
     color: #fff;
  }
+
+
 /* FINE STYLE CONTENUTO */
 /* FINE STYLE ROW 4*/
 
@@ -320,14 +316,14 @@ body {
     background-color: #23272a;
     justify-content: center;
     align-items: center;
+    
 }
 
 /* INIZIO STYLE ROW 1 */
     .row-footer1 {
         display: flex;
         width: 70%;
-        height: 530px;
-        padding-top: 20px;
+        padding-top: 70px;
         margin: 0 auto;
     }
 /* FINE STYLE ROW 1 */
@@ -336,18 +332,14 @@ body {
     .col-foot1 {
         display: flex;
         width: 40%;
-        background-color: #f08080;
     }
 /* FINE STYLE COL-FOOT 1 */
 
 /* INIZIO STYLE COL-FOOT 2 */
     .col-foot2 {
         display: flex;
-        height: 500px;
         width: 15%;
-        background-color: #20b2aa;
         padding-bottom: 4px;
-        border: 2px dashed #fff;
     }
 /* FINE STYLE COL-FOOT 2 */
 
@@ -407,7 +399,7 @@ hr {
 .col-foot1 .icons img{
     display: flex;
     margin-top: 20px;
-    color: #fff;
+    color:#fff;
     width: 24px;
     height: 24px;
  }
@@ -431,4 +423,22 @@ hr {
     font-weight: 600;
     font-size: 15px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.list #title {
+    color: #7289d9;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+li {
+    color: #fff;
+    font-weight: 900;
+    padding: 8px 0;
+}
+
+
 /* FINE STYLE FOOTER */
