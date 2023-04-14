@@ -1,5 +1,3 @@
-@import url("../fonts/ggsans/stylesheet.css");
-
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +7,7 @@
 body {
     width: 100%;
     margin: 0 auto;
+    font-family: 'gg sans', sans-serif;
 }
 
 /* UTILITIES */
@@ -95,6 +94,8 @@ body {
         align-items: center;
         background-image: url(../img/jumbo.png);
         background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;
     }
     
     .col2 {
@@ -131,7 +132,6 @@ body {
         font-size: 20px;
         padding: 20px 40px;
         margin-top: 100px;
-        margin-bottom: 250px;
     }
     
     .btn-download a{
@@ -140,7 +140,7 @@ body {
      }
 
      #arrow {
-        max-width: 25px;
+        max-width: 30px;
         margin-right: 10px;
         vertical-align: middle;
      }
