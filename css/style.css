@@ -251,6 +251,11 @@ body {
     background-color: #228b22;
 }
 
+/* .cont {
+    display: flex;
+    justify-content: center;
+} */
+
 .cont h2{
     text-align: center;
     font-size: 60px;
@@ -261,6 +266,7 @@ body {
 .cont p {
     font-size: 18px;
     text-align: center;
+    padding: 0 130px;
 }
 
 .cont img {
@@ -268,15 +274,41 @@ body {
     margin: 0 auto;
 }
 
-.cont .question img{
-    width: 50%;
-    margin: 0 auto;
+.cont .star-img {
+    background: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 40px;
 }
 
-.cont h4 {
+.star-img span{
+    display: inline-block;
     text-align: center;
-    font-size: 30px;
 }
+
+.btn-download2 {
+    display: flex;
+    width: fit-content;
+    background-color: #8ea1e1;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 8px 20px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-download2 span{
+    position: center;
+    margin-right: 10px;
+ }
+
+ .btn-download2 #arrow{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+ }
 /* FINE STYLE CONTENUTO */
 /* FINE STYLE ROW 4*/
 
@@ -303,7 +335,6 @@ body {
 /* INIZIO STYLE COL-FOOT 1 */
     .col-foot1 {
         display: flex;
-        height: 500px;
         width: 40%;
         background-color: #f08080;
     }
@@ -322,7 +353,7 @@ body {
 
 hr {
     margin: 20px;
-    color: #fff;
+    color: #3e4969;
 }
 
 /* INIZIO STYLE ROWFOOTER 2 */
@@ -331,29 +362,73 @@ hr {
         height: 80px;
         width: 70%;
         margin: 0 auto;
-        background-color: #7fffd4;
         align-content: center;
     }
 
     .col-logo {
         display: flex;
         width: auto;
-        background-color: #fcb3bf;
         justify-items: flex-start;
         align-self: center;
     }
 
-    .col-btn {
+    .col-reg {
         display: flex;
         width: auto;
-        background-color: #fcb3bf;
         justify-items: flex-end;
         align-self: center;
     }
 
     .row-footer2 *.content{
         display: flex;
-        margin: 8px;
     }
 /* INIZIO STYLE ROWFOOTER 2 */
+
+.btn-reg{
+    display: flex;
+    background-color: #8ea1e1;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;  
+}
+
+.btn-reg a{
+    text-decoration: none;
+    color: #fff;
+ }
+
+.col-foot1 .icons{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.col-foot1 .icons img{
+    display: flex;
+    margin-top: 20px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+ }
+
+ .descr h2 {
+    color: #7289d9;
+    font-size: 35px;
+    font-weight: 900;
+    padding-right: 30%;
+ }
+
+ .descr #ita {
+    margin-top: 20px;
+    width: 32px;
+    height: 24px;
+    vertical-align: middle;
+ }
+
+.descr span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
 /* FINE STYLE FOOTER */
