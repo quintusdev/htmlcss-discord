@@ -5,9 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- LINK PAGINA FONTAWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <!-- LINK PAGINA CSS -->
         <link rel="stylesheet" href="./css/style.css">
-
+        
         <title>Discord Blocks</title>
     </head>
 
@@ -54,7 +57,7 @@
                        <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunita' artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende piu' facile chiacchierare ogni giorno e ritrovarsi piu' spesso.</p>
                        <!-- bottoni download -->
                         <div class="btn-download">
-                            <a href="#"><img id="arrow" src="./img/arrow.png">Scarica per Mac</a>
+                            <a href="#"><span id="arrow">&#129063;</span> Scarica per Mac</a>
                         </div>
                         <div class="btn-browser">
                             <a href="#">Apri Discord nel tuo Browser</a>
@@ -142,24 +145,26 @@
             <!-- FINE CONTENITORE MAIN ROW 3 --> 
 
             <!-- CONTENITORE MAIN ROW 4 -->
-            <div class="containermain" id="row4-main">
-                <!-- RIGA -->
-                <div class="row-main4">
-                    <!-- COLONNA1 -->
-                    <div class="col-big">
-                        <div class="cont">
-                            <h2>Tecnologia affidabile per tenersi in contatto</h2>
-                            <p>Video e audio a bassa qualità ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
-                            <img src="./img/item4-big.svg" alt="cartoon condivione schermo">
-                            <div id="img-star">
-                                <h4>Pronto a iniziare la tua avventura?</h4>
-                            </div>
-                            <div class="btn-download2">
-                                <a href="#" id="dw2"> &#129063; Scarica per Mac</a>
+            <div class="containermain" id="cont4-main">
+                <!-- <div class="bggrey"> -->
+                    <!-- RIGA -->
+                    <div class="row-main4">
+                        <!-- COLONNA1 -->
+                        <div class="col-big">
+                            <div class="cont">
+                                <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                                <p>Video e audio a bassa qualità ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+                                <img src="./img/item4-big.svg" alt="cartoon condivione schermo">
+                                
+                                <h4 id="img-star">Pronto a iniziare la tua avventura?</h4>
+                                
+                                <div class="btn-download2">
+                                    <a href="#" id="dw2"> <span id="arrow">&#129063;</span>Scarica per Mac</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
             <!-- FINE CONTENITORE MAIN ROW 4 --> 
         </main>
@@ -179,17 +184,17 @@
                             <span>Italiano &#8964;</span>
 
                             <div class="icons">
-                                <img src="./img/twitter.png" alt="">
-                                <img src="./img/instagram.png" alt="">
-                                <img src="./img/facebook.png" alt="">
-                                <img src="./img/youtube.png" alt="">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-youtube"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-foot2">
                         <div class="list prod">
                                 <ul>
-                                    <li id="title">Prodotto</li>
+                                    <li class="titlefoot">Prodotto</li>
                                     <li>Scarica</li>
                                     <li>Perche' Discord</li>
                                     <li>Nitro</li>
@@ -201,7 +206,7 @@
                     <div class="col-foot2">
                         <div class="list company">
                             <ul>
-                                <li id="title">Compagnia</li>
+                                <li class="titlefoot">Compagnia</li>
                                 <li>Chi siamo</li>
                                 <li>Lavora con noi</li>
                                 <li>Marchio</li>
@@ -213,7 +218,7 @@
                     <div class="col-foot2">
                         <div class="list risorse">
                             <ul>
-                                <li id="title">Risorse</li>
+                                <li class="titlefoot">Risorse</li>
                                 <li>Scarica</li>
                                 <li>Perche' Discord</li>
                                 <li>Nitro</li>
@@ -231,7 +236,7 @@
                     <div class="col-foot2">
                         <div class="list norme">
                             <ul>
-                                <li id="title">Norme</li>
+                                <li class="titlefoot">Norme</li>
                                 <li>Scarica</li>
                                 <li>Perche' Discord</li>
                                 <li>Nitro</li>

@@ -141,7 +141,7 @@ body {
 
      #arrow {
         max-width: 30px;
-        margin-right: 10px;
+        margin-right: 15px;
         vertical-align: middle;
      }
 
@@ -227,8 +227,14 @@ body {
 /* FINE STYLE ROW 2*/
 
 /* STYLE ROW 4 */
-#row4-main {
-    height: 1200px;
+/* .bggrey {
+    background-image: url(../img/wave.svg);
+    width: 100%;
+    scale: -1;
+    color: rgba(197, 197, 197, 0.4);
+} */
+
+#cont4-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,17 +243,19 @@ body {
 .row-main4 {
     display: flex;
     width: 70%;
-    height: 1200px;
     justify-content: center;
     align-items: center;
 }
 
 /* INIZIO STYLE CONTENUTO */
 .col-big {
-    display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.cont {
+    margin: 100px 0px;
 }
 
 .cont h2{
@@ -269,28 +277,19 @@ body {
 }
 
 #img-star{
-    display: flex;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    width: 100%;
-    justify-content: center;
-    align-items:flex-end;
-}
-
-#img-star h4 {
-    display: flex;
-    text-align: center;
-    color: #000;
-    font-size: 26px;
-    font-weight: 700;
+    background-size: contain;
+    width: 40%;
+    padding-top: 30px;
+    margin: 0 auto;
+    font-size: 30px;
 }
 
 .btn-download2 {
     width: 100%;
     text-align: center;
-    margin: 80px 0;
+    margin: 60px 0;
 }
 
 .btn-download2 #dw2{
@@ -331,14 +330,14 @@ body {
 /* INIZIO STYLE COL-FOOT 1 */
     .col-foot1 {
         display: flex;
-        width: 40%;
+        width: 30%;
     }
 /* FINE STYLE COL-FOOT 1 */
 
 /* INIZIO STYLE COL-FOOT 2 */
     .col-foot2 {
         display: flex;
-        width: 15%;
+        width: 20%;
         padding-bottom: 4px;
     }
 /* FINE STYLE COL-FOOT 2 */
@@ -396,12 +395,12 @@ hr {
     justify-content: space-between;
     align-items: flex-start;
 }
-.col-foot1 .icons img{
+.col-foot1 .icons i{
     display: flex;
-    margin-top: 20px;
-    color:#fff;
-    width: 24px;
-    height: 24px;
+    margin-top: 40px;
+    color:#ffffff;
+    width: 32px;
+    height: 32px;
  }
 
  .descr h2 {
@@ -409,12 +408,13 @@ hr {
     font-size: 35px;
     font-weight: 900;
     padding-right: 30%;
+    margin-bottom: 20px;
  }
 
  .descr #ita {
     margin-top: 20px;
-    width: 32px;
-    height: 24px;
+    width: 40px;
+    height: 30px;
     vertical-align: middle;
  }
 
@@ -422,23 +422,24 @@ hr {
     color: #fff;
     font-weight: 600;
     font-size: 15px;
+    vertical-align: middle;
 }
 
 ul {
     list-style-type: none;
 }
 
-.list #title {
+.list .titlefoot {
     color: #7289d9;
+    font-size: medium;
     font-weight: 900;
     padding-bottom: 5px;
 }
 
 li {
     color: #fff;
-    font-weight: 900;
+    font-size: small;
+    font-weight: 600;
     padding: 8px 0;
 }
-
-
 /* FINE STYLE FOOTER */
