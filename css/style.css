@@ -171,7 +171,6 @@ body {
 
 /* STYLE ROW1 */
 .container-main {
-    background-color:#fff;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -180,7 +179,6 @@ body {
 .row-main {
     display: flex;
     width: 70%;
-    background-color: #fff;
 }
 
 .col-70 {
@@ -218,8 +216,11 @@ body {
 /* FINE STYLE ROW1 */
 
 /* STYLE ROW 2 */
+
+.grey{
+    background-color: rgba(0,0,0,0.1);
+}
 #row2-main {
-    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,17 +228,22 @@ body {
 /* FINE STYLE ROW 2*/
 
 /* STYLE ROW 4 */
-/* .bggrey {
-    background-image: url(../img/wave.svg);
+
+.bggrey {
     width: 100%;
+    opacity: 0.1;
+    display: flex;
+}
+
+#rev {
     scale: -1;
-    color: rgba(197, 197, 197, 0.4);
-} */
+}
 
 #cont4-main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0,0,0.1);
 }
 
 .row-main4 {
@@ -302,8 +308,6 @@ body {
     text-decoration: none;
     color: #fff;
  }
-
-
 /* FINE STYLE CONTENUTO */
 /* FINE STYLE ROW 4*/
 
