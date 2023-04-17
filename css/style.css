@@ -7,7 +7,7 @@
 body {
     width: 100%;
     margin: 0 auto;
-    font-family: 'gg sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* UTILITIES */
@@ -49,7 +49,7 @@ body {
     display: flex;
     text-align: center;
     vertical-align: middle;
-    font-size: 25px;
+    font-size: 17px;
     justify-content: space-around;
 }
 
@@ -115,13 +115,15 @@ body {
 
     .content h1{
         font-size: 60px;
-        font-weight: 800;
+        font-weight: 700;
         padding: 60px;
     }
 
     .content p {
         vertical-align: middle;
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 1.8em;
+        padding: 22px 0;
     }
 /* formattazione bottone dwn mac */
     .btn-download{
@@ -139,7 +141,7 @@ body {
         color: #000;
      }
 
-     #arrow {
+     .arrow {
         max-width: 30px;
         margin-right: 15px;
         vertical-align: middle;
@@ -203,12 +205,13 @@ body {
 
 .col-30 h2{
     font-size: 40px;
-    font-weight: 1000;
+    font-weight: 800;
     margin-top: 10px;
     padding-bottom: 30px;
 }
 
 .col-30 p{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -229,6 +232,8 @@ body {
 
 /* STYLE ROW 4 */
 
+
+/* IMMAGINE SFONDO GRIGIO SEZIONI */
 .bggrey {
     width: 100%;
     opacity: 0.1;
@@ -238,6 +243,7 @@ body {
 #rev {
     scale: -1;
 }
+/* FINE IMMAGINE SFONDO GRIGIO SEZIONI */
 
 #cont4-main {
     display: flex;
@@ -272,7 +278,9 @@ body {
 }
 
 .cont p {
-    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 23px;
     text-align: center;
     padding: 0 90px;
 }
@@ -399,6 +407,7 @@ hr {
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .col-foot1 .icons i{
     display: flex;
     margin-top: 40px;
@@ -410,7 +419,7 @@ hr {
  .descr h2 {
     color: #7289d9;
     font-size: 35px;
-    font-weight: 900;
+    font-weight: 700;
     padding-right: 30%;
     margin-bottom: 20px;
  }
@@ -423,8 +432,9 @@ hr {
  }
 
 .descr span {
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     vertical-align: middle;
 }
@@ -436,14 +446,15 @@ ul {
 .list .titlefoot {
     color: #7289d9;
     font-size: medium;
-    font-weight: 900;
+    font-weight: 800;
     padding-bottom: 5px;
 }
 
 li {
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: small;
-    font-weight: 600;
+    font-weight: 400;
     padding: 8px 0;
 }
 /* FINE STYLE FOOTER */
